@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_graph"
+    app:startDestination="@id/fragmentList">
+
+    <fragment
+        android:id="@+id/detailFragment2"
+        android:name="com.emrebaglayici.lab6.fragments.DetailFragment"
+        android:label="DetailFragment" >
+        <action
+            android:id="@+id/action_detailFragment2_to_fragmentList"
+            app:destination="@id/fragmentList" />
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <argument android:name="subject"
+            app:argType="string" />
+        <argument
+            android:name="message"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentList"
+        android:name="com.emrebaglayici.lab6.fragments.FragmentList"
+        android:label="FragmentList" >
+        <action
+            android:id="@+id/action_fragmentList_to_detailFragment2"
+            app:destination="@id/detailFragment2" />
+    </fragment>
+</navigation>

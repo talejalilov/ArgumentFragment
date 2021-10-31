@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CompanyName">
+        <item>Samsung</item>
+        <item>Iphone</item>
+        <item>Facebook</item>
+        <item>Google Security</item>
+        <item>Microsoft</item>
+
+    </array>
+    <array name="Subject" >
+
+        <item>Samsung 2222222222</item>
+        <item>Iphone 2222222222</item>
+        <item>Facebook 2222222222</item>
+        <item>Google Security 2222222222</item>
+        <item>Microsoft 2222222222</item>
+    </array>
+    <array name="Message" >
+        <item>Samsung 2222222222555555555555</item>
+        <item>Iphone 2222222222555555555555</item>
+        <item>Facebook 2222222222555555555555</item>
+        <item>Google Security 2222222222555555555555</item>
+        <item>Microsoft 2222222222555555555555</item>
+
+
+    </array>
+
+    <array name="Address">
+        <item>samsung@gmail.com</item>
+        <item>Iphone@gmail.com</item>
+        <item>Meta@gmail.com</item>
+        <item>Google@gmail.com</item>
+        <item>Microsoft@gmail.com</item>
+
+    </array>
+</resources>
